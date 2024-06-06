@@ -71,7 +71,7 @@ const AllPosts = () => {
       <SearchContainer>
         <Box>
           <InputBase
-            placeholder="Job title"
+            placeholder="Seach Job title"
             onChange={(e) => setText(e.target.value)}
           />
           <SearchIcon />
