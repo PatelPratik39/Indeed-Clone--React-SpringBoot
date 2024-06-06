@@ -1,6 +1,5 @@
 package com.indeed.server.dto;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -18,6 +17,4 @@ public class PostDTO {
     private String experience;
     private String technology[];
     private String salary;
-
-
 }

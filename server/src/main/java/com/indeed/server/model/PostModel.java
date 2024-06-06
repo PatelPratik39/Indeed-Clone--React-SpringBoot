@@ -7,7 +7,7 @@ import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.Date;
 
-@Document(collation = "posts")
+@Document(collection = "postModel")
 @Data
 public class PostModel {
 

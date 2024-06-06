@@ -14,7 +14,7 @@ import org.springframework.data.mongodb.core.convert.MappingMongoConverter;
 public class MongoConfig {
 
     @Bean
-    public MongoTemplate mongoTemplate(MongoDatabaseFactory mongoDatabaseFactory, MappingMongoConverter converter){
-        return new MongoTemplate(mongoDatabaseFactory, converter);
+    public MongoTemplate mongoTemplate(MongoDatabaseFactory mongoDbFactory, MappingMongoConverter converter) {
+        return new MongoTemplate(mongoDbFactory, converter);
     }
 }
